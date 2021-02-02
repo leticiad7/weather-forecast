@@ -1,0 +1,81 @@
+/*General*/
+body {
+    background-image: url("backj.jpg");
+    margin: auto;
+  
+  }
+  
+
+  .weather-content {
+    border: black;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px 2px;
+    padding: 40px;
+    background-color: white;
+    position: relative;
+    margin: 30px auto;
+    width: 900px;
+  }
+  
+
+  /*Lateral information - left */
+  #city {
+    font-size: 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: "Bebas Neue", cursive;
+    color: #7edbdc;
+  }
+  
+  #current-time {
+    text-align: left;
+    font-family: "Bebas Neue", cursive;
+    margin-left: 50px;
+    font-size: 40px;
+
+  }
+
+  #current-date {
+    font-family: "Bebas Neue", cursive;
+    font-size: 30px;
+  }
+
+  .current-temp {
+    font-size: 90px;
+    font-family: "Bebas Neue", cursive;
+  }
+
+  /*Lateral informations - right */
+  ul {
+    list-style-type: none;
+  }
+
+  #weather-description {
+    font-size: 30px;  
+  }
+  
+  #wind-speed {
+    font-style: italic;
+  }
+  
+  #humidity-level {
+    font-style: italic;
+  }
+  
+  #daily-max-temp {
+    font-style: italic;
+  }
+ 
+  /*
+  h4 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  */
+
+/*Forecast section*/
+  #forecast {
+    margin: 20px;
+  }
+  
