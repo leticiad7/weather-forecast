@@ -41,6 +41,9 @@ function displayWeatherCondition(response) {
     document.querySelector("#current-temp").innerHTML = Math.round(
       response.data.main.temp
     );
+    
+    //Conversion
+  celsiusTemperature = response.data.main.temp;
   
     //Wind Speed
     let currentWind = document.querySelector("#wind-speed");
