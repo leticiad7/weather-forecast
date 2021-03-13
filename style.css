@@ -72,4 +72,5 @@ body {
   .full-width-img {
   margin: auto;
   width: 90%;
+  overflow: hidden;
   }
